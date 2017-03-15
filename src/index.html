@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Maze Solution </title>
+       <style type="text/css" src="styles.css" > </style>
+      
+    </head>
+    <body>
+        <label>
+        Width: <input id="width" type="number" value="221" onchange="generateAndDrawMaze()" />
+        </label>
+
+        <label>
+        Height: <input id="height" type="number" value="53" onchange="generateAndDrawMaze()" />
+        </label>
+
+        <button onclick="drawMaze()">Draw</button>
+        <button onclick="drawMazeSolution()">Draw Solution</button>
+
+<br/>
+        <canvas width="800" height="600"></canvas>
+ 
+            <script type="text/javascript" src="script.js" > </script>
+    </body>
+</html>
+<!-- https://codepen.io/anon/pen/JWrRBp -->
